@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void switch_activities(View view){
-        Intent act_action = new Intent(packageContext this, Activity2.class);
+        Intent act_action = new Intent( this, Activity2.class);
         startActivity(act_action);
     }
 }
